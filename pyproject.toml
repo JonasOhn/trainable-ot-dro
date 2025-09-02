@@ -9,7 +9,6 @@ description = "Trainable optimal transport ambiguity sets for distributionally r
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "", email = "" }]
 keywords = ["optimal transport", "distributionally robust optimization", "bilevel optimization"]
 dependencies = [
   "numpy>=1.24.0",

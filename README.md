@@ -4,6 +4,10 @@ Implementation accompanying:
 
 > *Loss-aware distributionally robust optimization via trainable optimal transport ambiguity sets*, Preprint, 2025
 
+![Sketch of Shapign Ambiguity Sets](https://github.com/user-attachments/assets/321c2670-0f3b-4f32-bb62-423a1790f13f)
+
+
+
 ## Installation
 ```bash
 git clone https://github.com/JonasOhn/trainable-ot-dro.git

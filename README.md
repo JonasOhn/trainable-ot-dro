@@ -1,6 +1,8 @@
 # Trainable Optimal-Transport Ambiguity Sets in Distributionally Robust Optimization
 
-Implementation accompanying:
+Implementation of an end-to-end pipeline to train optimal transport ambiguity sets in distributionally robust optimization via a bilevel optimization approach. Making use of the differentiability of conic programs resulting from distributionally robust reformulations, the transportation cost is learned to yield less conservative decisions while aiming to respect the true distribution within the ambiguity set.
+
+Associated with the manuscript:
 
 > *Loss-aware distributionally robust optimization via trainable optimal transport ambiguity sets*, Preprint, 2025
 

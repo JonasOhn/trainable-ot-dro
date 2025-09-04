@@ -4,7 +4,9 @@ Implementation accompanying:
 
 > *Loss-aware distributionally robust optimization via trainable optimal transport ambiguity sets*, Preprint, 2025
 
-<img src="https://github.com/user-attachments/assets/321c2670-0f3b-4f32-bb62-423a1790f13f" alt="Sketch of Shaping Ambiguity Sets" width="30%"/>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/321c2670-0f3b-4f32-bb62-423a1790f13f" alt="Sketch of Shaping Ambiguity Sets" width="30%"/>
+</p>
 
 ## Installation
 ```bash

@@ -6,6 +6,7 @@ Implementation accompanying:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/321c2670-0f3b-4f32-bb62-423a1790f13f" alt="Sketch of Shaping Ambiguity Sets" width="30%"/>
+  <em>Figure 1: Sketch of Shaping Ambiguity Sets</em>
 </p>
 
 ## Installation

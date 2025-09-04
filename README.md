@@ -13,9 +13,21 @@ pip install -e .
 
 ### Dependencies
 Requires Python ≥ 3.10.
-Core dependencies (via `pyproject.toml`): `numpy`, `scipy`, `cvxpy`, `matplotlib==3.9.0`, `clarabel` (as the CP solver).
+Core dependencies (via `pyproject.toml`): `numpy`, `scipy`, `POT`, `cvxpy`, `matplotlib==3.9.0`, `clarabel` (as the CP solver).
 
-## 🗂️ Repository structure
+## Quick check
+After installing:
+```bash
+ot-dro-demo
+```
+
+Expected:
+```
+trainable_ot_dro imported successfully.
+Core modules available.
+```
+
+## Repository structure
 
 ```
 trainable-ot-dro/
@@ -48,33 +60,16 @@ trainable-ot-dro/
 └─ .gitignore
 ```
 
-## Quick check
-
-After installing:
-
-```bash
-ot-dro-demo
-```
-
-Expected:
-
-```
-trainable_ot_dro imported successfully.
-Core modules available.
-```
-
-## Running the examples
-
+## Example scripts
 All examples assume the package is installed.
 
 ```bash
 python examples/linreg_dro.py
 python examples/portfolioopt_gaussian.py
-# …and so on
+python examples/portfolioopt_gaussianmixture.py
+python examples/portfolioopt_discrete.py
 ```
-
-Each script writes a timestamped `.npy` result to `results/...` and saves figures under `results/figures/` with a compact, informative filename (problem, Wasserstein type, sample/boot counts, seed, timestamp).
+Each script writes a timestamped `.npy` result to `results/...` and saves figures under `results/` with a compact, informative, timestamped filename.
 
 ## License
-
 MIT.

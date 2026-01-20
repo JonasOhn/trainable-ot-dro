@@ -13,7 +13,7 @@ Associated with the manuscript:
 
 ## Installation
 ```bash
-git clone https://github.com/JonasOhn/trainable-ot-dro.git
+git clone XXX
 cd trainable-ot-dro
 pip install -e .
 ```
